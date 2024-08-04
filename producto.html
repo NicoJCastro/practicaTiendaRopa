@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiendaDeRopasGrid</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" title="Home"></a>
+        <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>ReactJS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producot">
+
+            <div class="camisa__contenido">
+                <p>ReactJS es una biblioteca de JavaScript para construir interfaces de
+                    usuario. Es mantenido por Facebook y la comunidad de software libre. React puede ser utilizado como
+                    base en el desarrollo de aplicaciones de una sola página o móviles.</p>
+
+                <form action="" class="formulario">
+                    <select class="formulario__campo" name="talla" id="talla" title="Talla">
+                        <option value="" disabled selected>--Seleccione--</option>
+                        <option value="ch">Chica</option>
+                        <option value="m">Mediana</option>
+                        <option value="g">Grande</option>
+                    </select>                 
+                    <input class="formulario__campo" type="number" id="cantidad" min="1" value="1" title="Cantidad">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2024.</p>
+    </footer>
+
+</body>
+
+</html>
